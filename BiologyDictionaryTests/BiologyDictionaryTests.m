@@ -1,18 +1,18 @@
 //
-//  InitialGitHubTests.m
-//  InitialGitHubTests
+//  BiologyDictionaryTests.m
+//  BiologyDictionaryTests
 //
-//  Created by Tomohiro Ishino on 5/26/14.
+//  Created by Tomohiro Ishino on 5/27/14.
 //  Copyright (c) 2014 Tomohiro Ishino. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface InitialGitHubTests : XCTestCase
+@interface BiologyDictionaryTests : XCTestCase
 
 @end
 
-@implementation InitialGitHubTests
+@implementation BiologyDictionaryTests
 
 - (void)setUp
 {

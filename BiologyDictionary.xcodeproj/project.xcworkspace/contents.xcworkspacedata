@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:InitialGitHub.xcodeproj">
+      location = "self:BiologyDictionary.xcodeproj">
    </FileRef>
 </Workspace>

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD46233919330A6E008C3D50"
-               BuildableName = "InitialGitHub.app"
-               BlueprintName = "InitialGitHub"
-               ReferencedContainer = "container:InitialGitHub.xcodeproj">
+               BlueprintIdentifier = "CDFD659F19344DDD00B03F8D"
+               BuildableName = "BiologyDictionary.app"
+               BlueprintName = "BiologyDictionary"
+               ReferencedContainer = "container:BiologyDictionary.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD46235D19330A6E008C3D50"
-               BuildableName = "InitialGitHubTests.xctest"
-               BlueprintName = "InitialGitHubTests"
-               ReferencedContainer = "container:InitialGitHub.xcodeproj">
+               BlueprintIdentifier = "CDFD65C319344DDD00B03F8D"
+               BuildableName = "BiologyDictionaryTests.xctest"
+               BlueprintName = "BiologyDictionaryTests"
+               ReferencedContainer = "container:BiologyDictionary.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CD46233919330A6E008C3D50"
-            BuildableName = "InitialGitHub.app"
-            BlueprintName = "InitialGitHub"
-            ReferencedContainer = "container:InitialGitHub.xcodeproj">
+            BlueprintIdentifier = "CDFD659F19344DDD00B03F8D"
+            BuildableName = "BiologyDictionary.app"
+            BlueprintName = "BiologyDictionary"
+            ReferencedContainer = "container:BiologyDictionary.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CD46233919330A6E008C3D50"
-            BuildableName = "InitialGitHub.app"
-            BlueprintName = "InitialGitHub"
-            ReferencedContainer = "container:InitialGitHub.xcodeproj">
+            BlueprintIdentifier = "CDFD659F19344DDD00B03F8D"
+            BuildableName = "BiologyDictionary.app"
+            BlueprintName = "BiologyDictionary"
+            ReferencedContainer = "container:BiologyDictionary.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CD46233919330A6E008C3D50"
-            BuildableName = "InitialGitHub.app"
-            BlueprintName = "InitialGitHub"
-            ReferencedContainer = "container:InitialGitHub.xcodeproj">
+            BlueprintIdentifier = "CDFD659F19344DDD00B03F8D"
+            BuildableName = "BiologyDictionary.app"
+            BlueprintName = "BiologyDictionary"
+            ReferencedContainer = "container:BiologyDictionary.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>InitialGitHub.xcscheme</key>
+		<key>BiologyDictionary.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>CD46233919330A6E008C3D50</key>
+		<key>CDFD659F19344DDD00B03F8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CD46235D19330A6E008C3D50</key>
+		<key>CDFD65C319344DDD00B03F8D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

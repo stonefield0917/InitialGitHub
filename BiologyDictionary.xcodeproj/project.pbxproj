@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDFD65A419344DDD00B03F8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFD65A319344DDD00B03F8D /* Foundation.framework */; };
+		CDFD65A619344DDD00B03F8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFD65A519344DDD00B03F8D /* CoreGraphics.framework */; };
+		CDFD65A819344DDD00B03F8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFD65A719344DDD00B03F8D /* UIKit.framework */; };
+		CDFD65AE19344DDD00B03F8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDFD65AC19344DDD00B03F8D /* InfoPlist.strings */; };
+		CDFD65B019344DDD00B03F8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD65AF19344DDD00B03F8D /* main.m */; };
+		CDFD65B419344DDD00B03F8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD65B319344DDD00B03F8D /* AppDelegate.m */; };
+		CDFD65B719344DDD00B03F8D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFD65B519344DDD00B03F8D /* Main_iPhone.storyboard */; };
+		CDFD65BA19344DDD00B03F8D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFD65B819344DDD00B03F8D /* Main_iPad.storyboard */; };
+		CDFD65BD19344DDD00B03F8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD65BC19344DDD00B03F8D /* ViewController.m */; };
+		CDFD65BF19344DDD00B03F8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFD65BE19344DDD00B03F8D /* Images.xcassets */; };
+		CDFD65C619344DDD00B03F8D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFD65C519344DDD00B03F8D /* XCTest.framework */; };
+		CDFD65C719344DDD00B03F8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFD65A319344DDD00B03F8D /* Foundation.framework */; };
+		CDFD65C819344DDD00B03F8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFD65A719344DDD00B03F8D /* UIKit.framework */; };
+		CDFD65D019344DDD00B03F8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDFD65CE19344DDD00B03F8D /* InfoPlist.strings */; };
+		CDFD65D219344DDD00B03F8D /* BiologyDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD65D119344DDD00B03F8D /* BiologyDictionaryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDFD65C919344DDD00B03F8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDFD659819344DDD00B03F8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDFD659F19344DDD00B03F8D;
+			remoteInfo = BiologyDictionary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDFD65A019344DDD00B03F8D /* BiologyDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiologyDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFD65A319344DDD00B03F8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDFD65A519344DDD00B03F8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CDFD65A719344DDD00B03F8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDFD65AB19344DDD00B03F8D /* BiologyDictionary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BiologyDictionary-Info.plist"; sourceTree = "<group>"; };
+		CDFD65AD19344DDD00B03F8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDFD65AF19344DDD00B03F8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDFD65B119344DDD00B03F8D /* BiologyDictionary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BiologyDictionary-Prefix.pch"; sourceTree = "<group>"; };
+		CDFD65B219344DDD00B03F8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDFD65B319344DDD00B03F8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDFD65B619344DDD00B03F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CDFD65B919344DDD00B03F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CDFD65BB19344DDD00B03F8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDFD65BC19344DDD00B03F8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDFD65BE19344DDD00B03F8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CDFD65C419344DDD00B03F8D /* BiologyDictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiologyDictionaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFD65C519344DDD00B03F8D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CDFD65CD19344DDD00B03F8D /* BiologyDictionaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BiologyDictionaryTests-Info.plist"; sourceTree = "<group>"; };
+		CDFD65CF19344DDD00B03F8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDFD65D119344DDD00B03F8D /* BiologyDictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiologyDictionaryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDFD659D19344DDD00B03F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFD65A619344DDD00B03F8D /* CoreGraphics.framework in Frameworks */,
+				CDFD65A819344DDD00B03F8D /* UIKit.framework in Frameworks */,
+				CDFD65A419344DDD00B03F8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFD65C119344DDD00B03F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFD65C619344DDD00B03F8D /* XCTest.framework in Frameworks */,
+				CDFD65C819344DDD00B03F8D /* UIKit.framework in Frameworks */,
+				CDFD65C719344DDD00B03F8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDFD659719344DDD00B03F8D = {
+			isa = PBXGroup;
+			children = (
+				CDFD65A919344DDD00B03F8D /* BiologyDictionary */,
+				CDFD65CB19344DDD00B03F8D /* BiologyDictionaryTests */,
+				CDFD65A219344DDD00B03F8D /* Frameworks */,
+				CDFD65A119344DDD00B03F8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDFD65A119344DDD00B03F8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD65A019344DDD00B03F8D /* BiologyDictionary.app */,
+				CDFD65C419344DDD00B03F8D /* BiologyDictionaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDFD65A219344DDD00B03F8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD65A319344DDD00B03F8D /* Foundation.framework */,
+				CDFD65A519344DDD00B03F8D /* CoreGraphics.framework */,
+				CDFD65A719344DDD00B03F8D /* UIKit.framework */,
+				CDFD65C519344DDD00B03F8D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDFD65A919344DDD00B03F8D /* BiologyDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD65B219344DDD00B03F8D /* AppDelegate.h */,
+				CDFD65B319344DDD00B03F8D /* AppDelegate.m */,
+				CDFD65B519344DDD00B03F8D /* Main_iPhone.storyboard */,
+				CDFD65B819344DDD00B03F8D /* Main_iPad.storyboard */,
+				CDFD65BB19344DDD00B03F8D /* ViewController.h */,
+				CDFD65BC19344DDD00B03F8D /* ViewController.m */,
+				CDFD65BE19344DDD00B03F8D /* Images.xcassets */,
+				CDFD65AA19344DDD00B03F8D /* Supporting Files */,
+			);
+			path = BiologyDictionary;
+			sourceTree = "<group>";
+		};
+		CDFD65AA19344DDD00B03F8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD65AB19344DDD00B03F8D /* BiologyDictionary-Info.plist */,
+				CDFD65AC19344DDD00B03F8D /* InfoPlist.strings */,
+				CDFD65AF19344DDD00B03F8D /* main.m */,
+				CDFD65B119344DDD00B03F8D /* BiologyDictionary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDFD65CB19344DDD00B03F8D /* BiologyDictionaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD65D119344DDD00B03F8D /* BiologyDictionaryTests.m */,
+				CDFD65CC19344DDD00B03F8D /* Supporting Files */,
+			);
+			path = BiologyDictionaryTests;
+			sourceTree = "<group>";
+		};
+		CDFD65CC19344DDD00B03F8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD65CD19344DDD00B03F8D /* BiologyDictionaryTests-Info.plist */,
+				CDFD65CE19344DDD00B03F8D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDFD659F19344DDD00B03F8D /* BiologyDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFD65D519344DDD00B03F8D /* Build configuration list for PBXNativeTarget "BiologyDictionary" */;
+			buildPhases = (
+				CDFD659C19344DDD00B03F8D /* Sources */,
+				CDFD659D19344DDD00B03F8D /* Frameworks */,
+				CDFD659E19344DDD00B03F8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiologyDictionary;
+			productName = BiologyDictionary;
+			productReference = CDFD65A019344DDD00B03F8D /* BiologyDictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDFD65C319344DDD00B03F8D /* BiologyDictionaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFD65D819344DDD00B03F8D /* Build configuration list for PBXNativeTarget "BiologyDictionaryTests" */;
+			buildPhases = (
+				CDFD65C019344DDD00B03F8D /* Sources */,
+				CDFD65C119344DDD00B03F8D /* Frameworks */,
+				CDFD65C219344DDD00B03F8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDFD65CA19344DDD00B03F8D /* PBXTargetDependency */,
+			);
+			name = BiologyDictionaryTests;
+			productName = BiologyDictionaryTests;
+			productReference = CDFD65C419344DDD00B03F8D /* BiologyDictionaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDFD659819344DDD00B03F8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tomohiro Ishino";
+				TargetAttributes = {
+					CDFD65C319344DDD00B03F8D = {
+						TestTargetID = CDFD659F19344DDD00B03F8D;
+					};
+				};
+			};
+			buildConfigurationList = CDFD659B19344DDD00B03F8D /* Build configuration list for PBXProject "BiologyDictionary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDFD659719344DDD00B03F8D;
+			productRefGroup = CDFD65A119344DDD00B03F8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDFD659F19344DDD00B03F8D /* BiologyDictionary */,
+				CDFD65C319344DDD00B03F8D /* BiologyDictionaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDFD659E19344DDD00B03F8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFD65BA19344DDD00B03F8D /* Main_iPad.storyboard in Resources */,
+				CDFD65BF19344DDD00B03F8D /* Images.xcassets in Resources */,
+				CDFD65B719344DDD00B03F8D /* Main_iPhone.storyboard in Resources */,
+				CDFD65AE19344DDD00B03F8D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFD65C219344DDD00B03F8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFD65D019344DDD00B03F8D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDFD659C19344DDD00B03F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFD65BD19344DDD00B03F8D /* ViewController.m in Sources */,
+				CDFD65B419344DDD00B03F8D /* AppDelegate.m in Sources */,
+				CDFD65B019344DDD00B03F8D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFD65C019344DDD00B03F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFD65D219344DDD00B03F8D /* BiologyDictionaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDFD65CA19344DDD00B03F8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDFD659F19344DDD00B03F8D /* BiologyDictionary */;
+			targetProxy = CDFD65C919344DDD00B03F8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDFD65AC19344DDD00B03F8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFD65AD19344DDD00B03F8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CDFD65B519344DDD00B03F8D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFD65B619344DDD00B03F8D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CDFD65B819344DDD00B03F8D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFD65B919344DDD00B03F8D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CDFD65CE19344DDD00B03F8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFD65CF19344DDD00B03F8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDFD65D319344DDD00B03F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDFD65D419344DDD00B03F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDFD65D619344DDD00B03F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BiologyDictionary/BiologyDictionary-Prefix.pch";
+				INFOPLIST_FILE = "BiologyDictionary/BiologyDictionary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CDFD65D719344DDD00B03F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BiologyDictionary/BiologyDictionary-Prefix.pch";
+				INFOPLIST_FILE = "BiologyDictionary/BiologyDictionary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CDFD65D919344DDD00B03F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BiologyDictionary.app/BiologyDictionary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BiologyDictionary/BiologyDictionary-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BiologyDictionaryTests/BiologyDictionaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CDFD65DA19344DDD00B03F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BiologyDictionary.app/BiologyDictionary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BiologyDictionary/BiologyDictionary-Prefix.pch";
+				INFOPLIST_FILE = "BiologyDictionaryTests/BiologyDictionaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDFD659B19344DDD00B03F8D /* Build configuration list for PBXProject "BiologyDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFD65D319344DDD00B03F8D /* Debug */,
+				CDFD65D419344DDD00B03F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFD65D519344DDD00B03F8D /* Build configuration list for PBXNativeTarget "BiologyDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFD65D619344DDD00B03F8D /* Debug */,
+				CDFD65D719344DDD00B03F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDFD65D819344DDD00B03F8D /* Build configuration list for PBXNativeTarget "BiologyDictionaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFD65D919344DDD00B03F8D /* Debug */,
+				CDFD65DA19344DDD00B03F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDFD659819344DDD00B03F8D /* Project object */;
+}
